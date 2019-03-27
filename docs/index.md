@@ -6,3 +6,4 @@ SICP
   * [Упражнение 1.1](./chapter-01/exercise-1-01.md)
   * [Упражнение 1.2](./chapter-01/exercise-1-02.md)
   * [Упражнение 1.3](./chapter-01/exercise-1-03.md)
+  * [Упражнение 1.4](./chapter-01/exercise-1-04.md)
