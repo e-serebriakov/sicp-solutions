@@ -8,3 +8,4 @@ SICP
   * [Упражнение 1.3](./chapter-01/exercise-1-03.md)
   * [Упражнение 1.4](./chapter-01/exercise-1-04.md)
   * [Упражнение 1.5](./chapter-01/exercise-1-05.md)
+  * [Упражнение 1.6](./chapter-01/exercise-1-06.md)
