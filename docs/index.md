@@ -22,3 +22,4 @@ SICP
   * [Упражнение 1.18](./chapter-01/exercise-1-18.md)
   * [Упражнение 1.20](./chapter-01/exercise-1-20.md)
   * [Упражнение 1.21](./chapter-01/exercise-1-21.md)
+  * [Упражнение 1.22](./chapter-01/exercise-1-22.md)
