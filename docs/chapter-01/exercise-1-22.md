@@ -27,6 +27,8 @@
 
 Не смог запустить (`*** ERROR: unbound variable: runtime`)
 
+[решение из другого источника](http://sicp.sergeykhenkin.com/2007/10/10/sicp-exercise-solution-1-22/)
+
 ```scheme
   (define (search-for-primes number-from prime-count) 
     (if (and (> prime-count 0) (timed-prime-test number-from))
