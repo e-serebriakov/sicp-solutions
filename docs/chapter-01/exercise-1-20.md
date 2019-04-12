@@ -28,11 +28,11 @@ k = 0
 ```
 
 ```scheme
-  (gcd 40 (remainder 206 40)))
+  (gcd 40 (remainder 206 40))
 ```
 
 ```scheme
-  (if (= (remainder 206 40) 0) 
+  (if (= (remainder 206 40) 0)
     40 
     (gcd (remainder 206 40) (remainder 40 (remainder 206 40))))
 ```
@@ -50,7 +50,7 @@ k = 1
 ```scheme
   gcd (remainder 206 40)
       (remainder 40
-                 (remainder 206 40)))
+                 (remainder 206 40))
 ```
 
 ```scheme
@@ -77,7 +77,7 @@ k = 3
   (gcd (remainder 40 (remainder 206 40))
        (remainder (remainder 206 40)
                   (remainder 40
-                             (remainder 206 40)))))
+                             (remainder 206 40))))
 ```
 
 ```scheme
