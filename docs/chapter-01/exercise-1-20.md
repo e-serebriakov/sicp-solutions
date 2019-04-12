@@ -40,7 +40,7 @@ k = 0
 k = 1
 
 ```scheme
-  (if (= 6 0) ; 1
+  (if (= 6 0)
     206 
     (gcd (remainder 206 40)
          (remainder 40
