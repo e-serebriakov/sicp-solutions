@@ -17,15 +17,15 @@
 
 ### Решение
 
-Не смог запустить (`*** ERROR: unbound variable: runtime`) 
-
-[решение из другого источника](http://sicp.sergeykhenkin.com/2007/10/10/sicp-exercise-solution-1-23/)
-
 ```scheme
   (define (next n)
     (if (= n 2)
       3
       (+ n 2)))
 ```
+
+Не смог запустить (`*** ERROR: unbound variable: runtime`) 
+
+[решение из другого источника](http://sicp.sergeykhenkin.com/2007/10/10/sicp-exercise-solution-1-23/)
 
 

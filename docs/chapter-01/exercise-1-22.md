@@ -3,9 +3,6 @@
 Большая часть реализаций Лиспа содержат элементарную процедуру `runtime`, которая возвращает целое число, показывающее, как долго работала система (например, в миллисекундах). Следующая процедура `timed-prime-test`, будучи вызвана с целым числом `n`, печатает `n` и проверяет, простое ли оно. Если `n` простое, процедура печатает три звездочки и количество времени, затраченное на проверку.
 
 ```scheme
-  (define (runtime) 
-    (current-milliseconds))
-
   (define (timed-prime-test n)
     (newline)
     (display n)
@@ -25,13 +22,13 @@
 
 ### Решение
 
-Не смог запустить (`*** ERROR: unbound variable: runtime`)
-
-[решение из другого источника](http://sicp.sergeykhenkin.com/2007/10/10/sicp-exercise-solution-1-22/)
-
 ```scheme
   (define (search-for-primes number-from prime-count) 
     (if (and (> prime-count 0) (timed-prime-test number-from))
       (search-for-primes (+ number-from 1) (- prime-count 1)) 
       (search-for-primes (+ number-from 1) prime-count)))
 ```
+
+Не смог запустить (`*** ERROR: unbound variable: runtime`)
+
+[решение из другого источника](http://sicp.sergeykhenkin.com/2007/10/10/sicp-exercise-solution-1-22/)
