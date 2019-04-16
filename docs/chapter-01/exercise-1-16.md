@@ -4,7 +4,7 @@
 
 ```scheme
   (define (fast-exp b n)
-    (exp-iter 1 b n))
+    (fast-expt-iter 1 b n))
   
   (define (fast-expt-iter product base exp) 
     (if (= exp 0) 
