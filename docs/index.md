@@ -29,3 +29,4 @@ SICP
   * [Упражнение 1.26](./chapter-01/exercise-1-26.md)
   * [Упражнение 1.27](./chapter-01/exercise-1-27.md)
   * [Упражнение 1.28](./chapter-01/exercise-1-28.md)
+  * [Упражнение 1.29](./chapter-01/exercise-1-29.md)
