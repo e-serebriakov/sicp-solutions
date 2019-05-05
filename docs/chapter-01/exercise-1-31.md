@@ -30,7 +30,7 @@
     (product identity 1 inc b))
 ```
 
-```
+```scheme
   (define (pi-product n)
     (define (inc x) (+ x 1))
 
@@ -55,7 +55,7 @@
 ```
 
 Реализация через итеративный процесс
-```
+```scheme
   (define (product term a next b)
     (define (iter a result)
       (if (> a b)
