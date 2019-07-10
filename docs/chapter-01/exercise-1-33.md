@@ -34,5 +34,5 @@ a.
     (define (n-prime? i n)
       (= (gcd i n) 1))
  
-    (filtered-accumulate n-prime? * 1 identity 1 inc n)))
+    (filtered-accumulate n-prime? * 1 identity 1 inc n))
 ```
